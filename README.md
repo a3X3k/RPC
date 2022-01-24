@@ -1,12 +1,12 @@
 # RPC
 
-## Installation
+### Installation
 
 ```bash
 sudo apt-get install rpcbind
 ```
 
-## After Successful Installation 
+### After Successful Installation 
 
 ```bash
 rpcinfo
@@ -15,7 +15,7 @@ rpcinfo
 ![image](https://user-images.githubusercontent.com/52845731/150816460-c695270b-b538-4822-a3b6-2eb05fcbbfa0.png)
 
 
-## Creating Calculator Program
+### Creating Calculator Program
 
 ```c
 struct numbers
@@ -35,7 +35,7 @@ program CALC_PROGRAM
 } = 0x23451111;
 ```
 
-## Compile 
+### Compile 
 
 ```bash
 rpcgen -a -C calc.x
@@ -49,7 +49,7 @@ make -f Makefile.calc
 
 - Make required modifications to Client and Server files that are created. 
 
-## Run Server
+### Run Server
 
 ```bash
 sudo ./calc.server
