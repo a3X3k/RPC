@@ -12,4 +12,4 @@ sudo apt-get install rpcbind
 rpcinfo
 ```
 
-![image](https://user-images.githubusercontent.com/52845731/150816333-21f3b8a9-6e0e-4981-85fd-690683354833.png)
+![image](https://user-images.githubusercontent.com/52845731/150816460-c695270b-b538-4822-a3b6-2eb05fcbbfa0.png)
