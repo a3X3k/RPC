@@ -46,3 +46,17 @@ rpcgen -a -C calc.x
 ```bash
 make -f Makefile.calc
 ```
+
+- Make required modifications to Client and Server files that are created. 
+
+## Run Server
+
+```bash
+sudo ./calc.server
+```
+
+## Run Client 
+
+```bash
+sudo ./calc.client localhost <Arguments>
+```
