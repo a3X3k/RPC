@@ -40,3 +40,9 @@ program CALC_PROGRAM
 ```bash
 rpcgen -a -C calc.x
 ```
+
+- Using make command, create all other files that are necessary as per the RPC Structure. 
+
+```bash
+make -f Makefile.calc
+```
